@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,700;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="styles.css">
+    <title>Courses & Learning Platform</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">LMS</div>
+
+            <div class="container-fluid-k">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+
+            <div class="right">
+                <ul class="menu">
+                    <li><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
+                    <li><a href="page2.html"><i class="bi bi-file-person-fill"></i> About</a></li>
+                    <li><a href="#blog"> <i class="bi bi-person-workspace"></i> Services</a></li>
+                    <li><a href="loginpage.html"><i class="bi bi-journal-code"></i> Login</a></li>
+                    <li><a href="cpage.html"><i class="bi bi-person-lines-fill"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="wellCome" >
+        <h4>Welcome to SciAstra Education</h4>
+    </section>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="text-content">
+                    <h3>Expand Your Knowledge</h3>
+                    <p>Discover amazing courses and insightful blog posts</p>
+                    <a href="#courses" class="btn btn-primary">Browse Courses</a>
+                </div>
+                <div class="image-content">
+                    <img src="What-is-a-Full-Stack-Developer.jpg" alt="Learning Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Placed Students Section -->
+    <section id="placed-students">
+        <h2>Placed Students</h2>
+        <div class="students-carousel">
+            <!-- Student Item 1 -->
+            <div class="student-card">
+                <img src="sundar_pichai.jpg" alt="Student Name 1">
+                <h3>Student Name 1</h3>
+                <p>Package: $80,000</p>
+                <p>Company: Tech Corp</p>
+            </div>
+            <!-- Student Item 2 -->
+            <div class="student-card">
+                <img src="elon-musk.jpg" alt="Student Name 2">
+                <h3>Student Name 2</h3>
+                <p>Package: $75,000</p>
+                <p>Company: Innovate Labs</p>
+            </div>
+            <div class="student-card">
+                <img src="sundar_pichai.jpg" alt="Student Name 1">
+                <h3>Student Name 1</h3>
+                <p>Package: $80,000</p>
+                <p>Company: Tech Corp</p>
+            </div>
+            <div class="student-card">
+                <img src="sundar_pichai.jpg" alt="Student Name 1">
+                <h3>Student Name 1</h3>
+                <p>Package: $80,000</p>
+                <p>Company: Tech Corp</p>
+            </div>
+            <div class="student-card">
+                <img src="sundar_pichai.jpg" alt="Student Name 1">
+                <h3>Student Name 1</h3>
+                <p>Package: $80,000</p>
+                <p>Company: Tech Corp</p>
+            </div>
+        <div class="student-card">
+            <img src="elon-musk.jpg" alt="Student Name 2">
+            <h3>Student Name 2</h3>
+            <p>Package: $75,000</p>
+            <p>Company: Innovate Labs</p>
+        </div>
+    </section>
+    <main class="container">
+        <section id="courses">
+            <h2>Featured Courses</h2>
+            <div class="course-grid" id="coursesGrid">
+                <!-- Courses will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Blog Section -->
+<section class="blog-section">
+    <div class="blog-container">
+        <div class="blog-content">
+            <h2>EduBlog - Latest Articles</h2>
+            <p>Explore insightful articles and guides on career development, placement tips, skill-building, and more. Our expert-written blogs are here to help you succeed in your career journey with valuable knowledge and advice.</p>
+            
+            <div class="blog-links">
+                <a href="#career-tips">Career Tips</a>
+                <a href="#technology">Technology</a>
+                <a href="#interview-prep">Interview Preparation</a>
+            </div>
+        </div>
+        
+        <div class="featured-blogs">
+            <h3>Featured Blogs</h3>
+            <div class="blog-carousel">
+                <!-- Each blog entry -->
+                <div class="blog-post">
+                    <h4>Top Skills for 2024</h4>
+                    <p>Discover the most in-demand skills for the tech industry in 2024.</p>
+                    <a href="#top-skills" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <h4>How to Ace Your Interviews</h4>
+                    <p>Learn the best strategies to prepare for and succeed in job interviews.</p>
+                    <a href="#interview-tips" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <h4>Mastering Full-Stack Development</h4>
+                    <p>A guide to becoming a successful full-stack developer in today's market.</p>
+                    <a href="#full-stack" class="read-more">Read More</a>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="container-fluid">
+        <div class="row">
+               <div class="col ml-md-3 Footer">
+                           <h6>ABOUT</h6>
+                       <div>
+                       <a href="#">Contact Us</a>
+                       <a href="#">About Us</a>
+                       <a href="#">Careers</a>
+                       <a href="#">Stories</a>
+                       <a href="#">Press</a>
+                       <a href="#">Wholsale</a>
+                       <a href="">Corporate Information</a>
+                       </div>
+                </div>
+               <div class="col Footer">
+                   <h6>ABOUT</h6>
+                   <div>
+                   <a href="#">Contact Us</a>
+                   <a href="#">About Us</a>
+                   <a href="#">Careers</a>
+                   <a href="#">Stories</a>
+                   <a href="#">Press</a>
+                   <a href="#">Wholsale</a>
+                   <a href="">Corporate Information</a>
+                   </div>
+               </div>
+               <div class="col Footer">
+                    <h6>ABOUT</h6>
+                   <div>
+                   <a href="#">Contact Us</a>
+                   <a href="#">About Us</a>
+                   <a href="#">Careers</a>
+                   <a href="#">Stories</a>
+                   <a href="#">Press</a>
+                   <a href="#">Wholsale</a>
+                   <a href="">Corporate Information</a>
+                   </div>
+               </div>
+                <div class="col Footer">
+                           <h6>ABOUT</h6>
+                       <div>
+                           <a href="#">Contact Us</a>
+                           <a href="#">About Us</a>
+                           <a href="#">Careers</a>
+                           <a href="#">Stories</a>
+                           <a href="#">Press</a>
+                           <a href="#"> Wholsale</a>
+                           <a href="">Corporate Information</a>
+                       </div>
+               </div>
+                <div class="col Footer border-left border-secondary">
+                               <h6>Mail Us</h6>
+                               <div>
+                                   <p> Internet Private Limited,</p>
+                                   <p> Buildings Alyssa, Begonia &</p> 
+                                   <p> Clove Embassy Tech Village,</p>
+                                   <p> Outer Ring Road, Devarabeesanahalli Village,</p>
+                                   <p> Bengaluru, 560103,</p>
+                                   <p> Karnataka, India</p>
+                               </div>
+                </div>
+               <div class="col Footer">
+               <h6>ABOUT</h6>
+                   <div>
+                   <a href="#">Contact Us</a>
+                   <a href="#">About Us</a>
+                   <a href="#">Careers</a>
+                   <a href="#">Stories</a>
+                   <a href="#">Press</a>
+                   <a href="#">Wholsale</a>
+                   <a href="">Corporate Information</a>
+                   </div>
+               </div>
+        </div>
+           <div class="row border-top mt-5 py-3 border-secondary">
+               <div class="col">
+                   <i class="fa fa-briefcase text-warning"></i>
+                   <span>Sell On</span>
+               </div>
+               <div class="col">
+                   <i class="fab fa-stumleupon-circle text-warning"></i>
+                   <span>Advertise</span> 
+               </div>
+               <div class="col">
+                   <i class="fa fa-gift text-warning"></i>
+                   <span>Gift Cards</span>
+               </div>
+               <div class="col">
+                   <i class="fa fa-question-circle text-warning"></i>
+                   <span>Help Center</span>
+               </div>
+               <div class="col col-md-2 col-xs-4">
+                   <span>&copy; 2007-2022 SciAstra.com</span>
+          </div>
+   </footer>
+
+
+    <script>
+        // Sample course data
+        const courses = [
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+                
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+                
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+                
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+                
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+                
+            },
+            {
+                id: 1,
+                title: 'Web Development Fundamentals',
+                description: 'Learn the basics of web development',
+                price: 99.99,
+                discountPrice: 79.99
+            }
+            // Add more courses here
+        ];
+
+        // Render courses
+        function renderCourses() {
+            const coursesGrid = document.getElementById('coursesGrid');
+            courses.forEach(course => {
+                const courseElement = document.createElement('div');
+                courseElement.className = 'course-card';
+                courseElement.innerHTML = `
+                    <div class="course-image">
+                        <img src="What-is-a-Full-Stack-Developer.jpg" alt="Student Name 1">
+                        </div>
+                    <div class="course-content">
+                        <h3>${course.title}</h3>
+                        <p>${course.description}</p>
+                        <p>
+                            <span class="price">$${course.discountPrice}</span>
+                            <span class="original-price"><s>$${course.price}</s></span>
+                        </p>
+                        <a href="#" class="btn btn-primary" onclick="enrollcourse(event, ${course.id})">Enroll Now</a>
+                    </div>
+                `;
+                coursesGrid.appendChild(courseElement);
+            });
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCourses();
+        });
+    </script>
+    <script>
+        function enrollCourse(courseId) {
+            const confirmation = confirm("Proceed to payment?");
+            if (confirmation) {
+                window.location.href = `/payment.html?courseId=${courseId}`;
+            }
+        }
+    </script>
+    
+    <script src="https://js.stripe.com/v3/"></script>
+   
+</body>
+</html>

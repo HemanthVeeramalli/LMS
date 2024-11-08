@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Page</title>
+</head>
+<body>
+    <h2>Complete Your Payment</h2>
+    <p>Select your payment method:</p>
+    <select id="paymentMethod">
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="upi">UPI</option>
+    </select>
+    <button onclick="processPayment()">Pay Now</button>
+
+    <script>
+        async function processPayment() {
+            const paymentMethod = document.getElementById("paymentMethod").value;
+            const courseId = new URLSearchParams(window.location.search).get("courseId");
+
+            const verificationCode = prompt("Enter verification code sent to your phone:");
+            if (verificationCode === "123456") {
+                alert("Payment successful!");
+                // Redirect or take further action
+            } else {
+                alert("Verification failed.");
+            }
+        }
+    </script>
+</body>
+</html>
